@@ -1,0 +1,121 @@
+@font-face {
+font-family: "BE Regular";
+src: url("./fonts/Barter Exchange/BarterExchange-regular.woff");
+}
+@font-face {
+font-family: "Line Awesome";
+src: url("./fonts/Line Awesome/line-awesome.woff");
+}
+
+.container{
+    font-family: Line Awesome;
+    font-weight: normal;
+    font-size: 18px;
+  width: auto;
+  height: 400px;
+  position: absolute;
+  top: 80px;
+  left: 200px;
+  display: flex;
+}
+
+.container-left{
+  float: left;
+  height: inherit;
+  padding: 20px 50px;
+  position: relative;
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.container-right{
+    width: 400px;
+    float: left;
+    height: inherit;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 40px;
+  position: relative;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container-left:hover, .container-right:hover{
+
+    transform: scale(1.005);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form{
+    position: relative;
+    left: 50px;
+    width: 80%;
+}
+
+.form-row{
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+.form-row input{
+    margin: 8px 0 8px 0;
+}
+
+.form-row input{
+    width: 100%;
+    padding: 11.5px 15px;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+.form-row input:hover, .form-row input:focus{
+    transform: scale(1.005);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.form-footer input{
+    font-size: 16px;
+    transform: scale(1.3);
+}
+.form-footer input:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    cursor: pointer;
+    font-weight: bold;
+}
+.form-footer a{
+    margin-left: 40px;
+    font-size: 14px;
+}
+.form-footer a:hover{
+    opacity: 1;
+    font-weight: bold;
+}
+
+/* For Sign in button*/
+.login-form .login-btn, .container-left a button {
+	width: 100%;
+	margin: 10px 0 50px 0px;
+	cursor: pointer;
+  font-weight: bold;
+  font-size: 80%;
+  border-radius: 4.5rem;
+  letter-spacing: .1rem;
+  padding: 1rem;
+  transition: all 0.2s;
+  /* background-color: rgb(178,215,255); */
+}
+.container-left a button{
+    width: 50%;
+    position: absolute;
+    top: 90%;
+    left: 24%;
+	margin: 10px 0 50px 0px;
+  border-radius: 3rem;
+}
+.login-btn:hover, .container-left a button:hover {
+    transition-duration: .1s;
+    transform: scale(1.02);
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    /* background: rgba(0, 123, 255, 0.9); */
+}

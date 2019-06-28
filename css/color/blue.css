@@ -1,0 +1,242 @@
+.text-primary {
+}
+
+a {
+    color: #3573a3;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #3573a3;
+    text-decoration: none;
+}
+
+
+
+
+.navbar-default .navbar-brand {
+    color: #3573a3;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #3573a3;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #3573a3;
+    background-color: #3573a3;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #3573a3;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    background-color: #3573a3;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    background-color: #3573a3;
+}
+
+.menu-wrap a:hover,
+.menu-wrap a:focus {
+	color: #3573a3;
+}
+
+.menu-wrap .logo {
+    color: #3573a3;
+}
+
+.menu-button {
+    background: #3573a3;
+}
+
+.header .intro-text h1 span {
+    color: #3573a3;
+}
+
+.main-title strong {
+    color: #3573a3;
+}
+
+.feature i {
+    background: #3573a3;
+}
+
+.no-touch .feature:hover i,
+	.no-touch .feature:active i,
+	.no-touch .feature:focus i {
+        
+        box-shadow: 0 0 0 0 #3573a3;
+}
+
+.feature-2 i {
+    background: #3573a3;
+    border: 1px solid #3573a3;
+}
+
+.feature-2:hover i {
+    background: transparent;
+    color: #3573a3;
+}
+
+.feature-2:hover .border {
+    border-color: #3573a3;
+}
+
+.feature-3 i {
+    color: #3573a3;
+    border: 1px solid #3573a3;
+}
+
+.feature-3:hover i {
+    background: #3573a3;
+    color: #fff;
+}
+
+.feature-3:hover .border {
+    border-color: #3573a3;
+}
+
+.portfolio-caption a i {
+    color: #3573a3;
+}
+.portfolio-item:hover .portfolio-caption {
+    background-color: rgba(40, 171, 227, 0.8);
+}
+
+.welcome-section:hover .border {
+    border-color: #3573a3;
+}
+
+.welcome-section:hover h4 {
+    color: #3573a3;
+}
+
+.about-text li i {
+    color: #3573a3;
+}
+
+.about-us-section-2 .carousel-indicators li,
+.project-image .carousel-indicators li {
+	border: 2px solid #3573a3 !important;
+}
+
+.about-us-section-2 .carousel-indicators .active,
+.project-image .carousel-indicators .active {
+	background-color: #3573a3;
+}
+
+.owl-theme .owl-controls .owl-buttons div {
+	background: #3573a3;
+}
+
+#team-section .nav-tabs.nav-justified {
+    background: #3573a3;
+}
+
+.team-member .team-details {
+    background-color: rgba(40, 171, 227, 0.8);
+}
+
+.counter-item i {
+    color: #3573a3;
+}
+.timer {
+    color: #3573a3;
+}
+.latest-post h4 {
+    color: #3573a3;
+}
+.latest-post .post-details li i {
+    color: #3573a3;
+}
+.testimonials .testimonial-content img {
+    border-radius: 50%;
+    border:3px solid #3573a3;
+}
+.testimonials .testimonial-author .author {
+    color: #3573a3;
+}
+.testimonials-carousel .owl-controls.clickable .owl-buttons div{
+	color: #3573a3;
+}
+.owl-theme .owl-controls .owl-page.active{
+    background-color: #3573a3;
+}
+
+.contact .form-control:focus {
+    border-color: #3573a3;
+    box-shadow: none;
+}
+
+footer.style-1 .footer-social li a {
+    background: #3573a3;
+}
+
+.call-to-action h1 strong {
+    color: #3573a3;   
+}
+
+.team-details li a {
+    background: #3573a3;
+}
+
+.progress-bar {
+    background: #3573a3;
+}
+
+
+.pricing-tables .pricing-table.highlight-plan .plan-name {
+    background: #3573a3;
+}
+
+.pricing-tables .pricing-table.highlight-plan .plan-signup {
+    background: #3573a3;
+}
+
+.footer-contact-info {
+    background: rgba(40, 171, 227, 0.8);
+}
+
+footer.style-1 {
+    border-top: 2px solid #3573a3;
+}
+
+#main-slide .slider-content h1 strong {
+    color: #3573a3;
+}
+
+.latest-post .post-details .date {
+    background: rgba(40, 171, 227, 0.8);
+}
+
+.custom-tab .nav-tabs.nav-justified {
+    background: #3573a3;
+}
+
+.plan-name {
+    background: #3573a3;
+}
+
+.plan-signup {
+    background: #3573a3;
+}
+
+.dot1, .dot2 {
+    background-color: #3573a3;
+}

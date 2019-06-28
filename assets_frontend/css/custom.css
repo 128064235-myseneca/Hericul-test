@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+* {
+    box-sizing: border-box;
+    transition: all ease-in-out 250ms;
+}
+/*----NAVBAR----*/
+.navbar-custom {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .05rem;
+    box-shadow: .01px -3px 10px 1px;
+    font-family: Roboto;
+    background-color: rgba(0,0,0,0);
+}
+
+.navbar-custom li {
+    padding: 0 .2em;
+}
+
+.navbar-brand-size {
+    width: 7rem !important;
+}
+
+.active-blue {
+    background-color: #f45b4f !important;
+}
+
+.nav-pad {
+    padding-left: 0;
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.nav-text-blue {
+    color: #f45b4f;
+}
+
+.width-next-prev-header {
+    width: 16% !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .width-next-prev-header {
+        width: 18% !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+    .width-next-prev-header {
+        width: 12% !important;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .width-next-prev-header {
+        width: 25% !important;
+    }
+
+    .nav-pad {
+        padding-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .width-next-prev-header {
+        width: 14% !important;
+    }
+
+}
+
+/*----SLIDER----*/
+.carousel-inner {
+    padding-bottom: 2em;
+    padding-top: 0.5em;
+}
+
+.carousel-item {
+    width: 100vw;
+}
+
+.card-width {
+    width: 100%;
+    height: 27rem !important;
+}
+
+.width-next-cards {
+    width: 5% !important;
+    right: 15rem !important;
+}
+
+.width-prev-cards {
+    width: 5% !important;
+    left: 15rem !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .width-next-prev-cards {
+        width: 12% !important;
+    }
+
+    .card-width {
+        width: 108%;
+        height: 24rem !important;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+
+    .card-width {
+        width: 100%;
+        height: 30rem !important;
+    }
+}
+
+/*@media only screen and (max-width: 770px) {*/
+/*    .width-next-prev-header {*/
+/*        width: 25% !important;*/
+/*    }*/
+/*}*/
+
+/*@media only screen and (max-width: 580px) {*/
+/*    .width-next-prev-cards {*/
+/*        width: 14% !important;*/
+/*    }*/
+
+/*    .card-width {*/
+/*        width: 100%;*/
+/*        height: 30rem;*/
+/*    }*/
+/*}*/
+
+
+/*-------Courses Section-------*/
+
+.popular-courses-section {
+    padding-top: 2em;
+    background-color: #f4f4f4;
+}
+
+.popular-courses-section h2 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-align: center;
+}
+
+.popular-courses-section h2 span {
+    color: #f45b4f;
+
+}
+
+/*---------Courses Cards--------*/
+
+.box-shadow {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.box-shadow:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: .25s;
+}
+
+a.custom-card,
+a.custom-card:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+.course-card-heading {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #f45b4f;
+}
+
+.course-card-text {
+    font-family: 'Raleway';
+    font-size: 0.9rem;
+}
+
+.course-sidecard-text {
+    white-space: nowrap;
+}
+
+.blue-icon {
+    color: #f45b4f;
+    font-size: 3rem;
+}
+
+.left-icon {
+    position: relative;
+    right: 1.5em;
+}
+
+.right-icon {
+    position: relative;
+    left: 1.5em;
+}
+
+.thin-icon {
+    font-size: 1.5rem;
+!important;
+}
+
+.blue-icon:hover {
+    color: black;
+}
+
+.img-fit {
+    max-width: 100%;
+    max-height: 120%;
+}
+
+@media only screen and (max-width: 990px) {
+    .blue-icon {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .blue-icon {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .blue-icon {
+        font-size: 0.75rem;
+    }
+}
+
+/*--------End Courses Cards-------*/
+
+/*----------Plus Two Courses Section---------*/
+
+.card-width-plustwo {
+    width: 100%;
+    height: 24rem;
+}
+
+.card-img-size {
+    height: 195px;
+    display: grid;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.special-card-width {
+    height: 22em;
+}
+
+@media only screen and (max-width: 990px) {
+    .card-img-size {
+        height: 24rem;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .card-width-plustwo {
+        width: 100%;
+        height: 24rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .card-img-size {
+        height: 260px;
+    }
+
+    .card-width-plustwo {
+        width: 100%;
+        height: 26rem;
+    }
+}
+
+
+/*----------End Plus Two Courses Section------*/
+
+/*-----------Testimonials-----------*/
+.img-box-size-testimonials {
+    width: 15rem;
+}
+
+.testimonials-text-container {
+    width: 80vw;
+    align-content: center;
+}
+
+/*----------End Testimonials------*/
+
+/*----------Individual Courses Page---------*/
+.card-width-course-header {
+    width: 100%;
+}
+
+/*----------Individual Courses Page Ends---------*/
+
+/*-----------Footer-----------*/
+.custom-footer {
+    display: grid;
+    height: 50px;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+/*----------End Footer------*/
+
+/*-----------Enroll Button-----------*/
+.enroll-button {
+    height: 20%;
+}
+
+
+.btn-blue {
+    background-color: #f45b4f !important;
+}
+
+@media only screen and (max-width: 580px) {
+    .enroll-button {
+        height: 10% !important;
+    }
+}
+
+/*----------End Enroll Button------*/
+
+/*--------Our Team Page--------*/
+.ourteam-section {
+    margin-top: 2em;
+}
+
+.ourteam-section h2 {
+    text-align: center;
+}
+
+.ourteam-section h2 span {
+    color: #f45b4f;
+}
+
+.team-card-text {
+    margin: 1.25rem !important;
+}
+
+.team-card-size {
+    height: 28rem;
+}
+
+@media only screen and (max-width: 770px) {
+
+    .col-md-4 {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*----------End Our Team------*/
+
+/*---------- Start Owl Carousel ------*/
+
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    font-size: 3rem !important;
+    color: #f45b4f !important;
+}
+
+
+.owl-prev {
+    left: -2rem;
+}
+
+.owl-next {
+    right: -2rem;
+}
+
+.owl-carousel:hover .owl-buttons {
+    display: none;
+}
+
+button:hover {
+    background-color: #f4f4f4 !important;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+/*----------End Owl Carousel------*/
+
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 90vh;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 600px;
+}
+
+
+.team-block {
+    margin-bottom: 20px;
+}
+
+.team-content {
+    position: absolute;
+    background-color: rgba(117, 117, 117, 0.8);
+    bottom: 0px;
+    display: inline-block;
+    width: 100%;
+    color: #fff;
+    padding: 10px;
+}
+
+.team-img {
+    position: relative;
+}
+
+.team-img img {
+    width: 100%;
+    height: 350px
+}
+
+.team-title {
+}
+
+.team-meta {
+    color: darkolivegreen;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.overlay {
+    border-radius: 0px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 1s ease;
+    background-color: #fff;
+}
+
+.team-img:hover .overlay {
+    opacity: .8;
+}
+
+.team-img:hover .team-content {
+    opacity: 0;
+}
+
+.text {
+    color: #0b0b0b;
+    position: absolute;
+    top: 26%;
+    left: 26%;
+    transform: translate(-26%, -26%);
+    -ms-transform: translate(-26%, -26%);
+    right: 0;
+    font-weight: 400;
+    font-size: 16px;
+    height: 100%;
+    overflow: scroll;
+    text-align: left !important;
+}
+
+.single-contact {
+    text-align: left;
+    position: relative;
+    padding-left: 70px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+/*--------------------HERO SECTION------------------------*/
+.hero-section {
+    /*background-image: url("../images/slide1.jpg");*/
+    height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+
+}
+
+.overlay-main {
+    position: static !important;
+    opacity: 0.6;
+    transition: none;
+    background-color: #000;
+}
+
+.heading-main {
+    top:50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.heading-main h1{
+    font-size: 4rem;
+    color: white;
+    opacity: 1 !important;
+    z-index: 5;
+}
+
+.heading-info-card {
+    bottom: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #f45b4f;
+    height: 35%;
+    opacity: 0.95;
+    z-index: 5;
+}
+/* Team */
+
+.portfolio {
+    margin: 3em 0 0 0;
+}
+
+.port-item {
+    margin: 0;
+    position: relative;
+    width: 23.5% !important;
+    margin: 0.5rem;
+}
+
+.port-item img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.port-desc {
+    position: absolute;
+    z-index: 100;
+    bottom: 0em;
+    left: 0em;
+    right: 0em;
+    text-align:center;
+    background: rgba(0,0,0,0.6);
+    color: white !important;
+    padding-bottom: 2em;
+}
+.port-desc a{
+    color:white !important;
+}
+.port-desc p {
+    margin: 1em;
+    color: white !important;
+}
+
+@media (min-width: 37rem) {
+    .port-item {
+        width: 50%;
+        float: left;
+    }
+}
+
+@media (min-width: 60rem) {
+    .port-item {
+        width: 33.333334%;
+        overflow: hidden;
+    }
+
+    .port-desc {
+        transform: translateY(150%);
+    }
+
+    .port-item:hover .port-desc {
+        transform: translateY(0%);
+    }
+}
+/*join now*/
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid;
+    padding: .5em 1.75em;
+}
+.button-accent{
+    color:#f45b4f;
+    border-color: #f45b4f;
+}
+
+.button-accent:hover,
+.button-accent:focus
+{
+    background: #f45b4f;
+    color:#fff;
+}
+.join{
+    margin:auto !important;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 60%;
+    display: inline-block;
+    z-index: 1000;
+}
+
+
+
